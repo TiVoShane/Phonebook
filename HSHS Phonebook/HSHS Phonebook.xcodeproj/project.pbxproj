@@ -26,6 +26,7 @@
 		3453114F16EE53360054C30B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3453112116EE53350054C30B /* Foundation.framework */; };
 		3453115716EE53360054C30B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3453115516EE53360054C30B /* InfoPlist.strings */; };
 		3453115A16EE53360054C30B /* HSHS_PhonebookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3453115916EE53360054C30B /* HSHS_PhonebookTests.m */; };
+		3453116916EE7DB90054C30B /* Phone List Table View.m in Sources */ = {isa = PBXBuildFile; fileRef = 3453116816EE7DB90054C30B /* Phone List Table View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		3453115616EE53360054C30B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3453115816EE53360054C30B /* HSHS_PhonebookTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSHS_PhonebookTests.h; sourceTree = "<group>"; };
 		3453115916EE53360054C30B /* HSHS_PhonebookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSHS_PhonebookTests.m; sourceTree = "<group>"; };
+		3453116716EE7DB90054C30B /* Phone List Table View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Phone List Table View.h"; path = "TableView Classes/Phone List Table View.h"; sourceTree = "<group>"; };
+		3453116816EE7DB90054C30B /* Phone List Table View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Phone List Table View.m"; path = "TableView Classes/Phone List Table View.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,7 @@
 		3453112516EE53350054C30B /* HSHS Phonebook */ = {
 			isa = PBXGroup;
 			children = (
+				3453116316EE7CCF0054C30B /* TableView Classes */,
 				3453112E16EE53360054C30B /* AppDelegate.h */,
 				3453112F16EE53360054C30B /* AppDelegate.m */,
 				3453113716EE53360054C30B /* RootViewController.h */,
@@ -171,6 +175,15 @@
 				3453115516EE53360054C30B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3453116316EE7CCF0054C30B /* TableView Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3453116716EE7DB90054C30B /* Phone List Table View.h */,
+				3453116816EE7DB90054C30B /* Phone List Table View.m */,
+			);
+			name = "TableView Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +302,7 @@
 				3453113916EE53360054C30B /* RootViewController.m in Sources */,
 				3453113C16EE53360054C30B /* DataViewController.m in Sources */,
 				3453113F16EE53360054C30B /* ModelController.m in Sources */,
+				3453116916EE7DB90054C30B /* Phone List Table View.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

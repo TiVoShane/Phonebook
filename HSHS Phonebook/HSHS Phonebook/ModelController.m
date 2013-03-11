@@ -20,7 +20,7 @@
  */
 
 @interface ModelController()
-@property (readonly, strong, nonatomic) NSArray *pageData;
+@property (readonly, strong, nonatomic) NSMutableArray *pageData;
 @end
 
 @implementation ModelController
@@ -30,8 +30,38 @@
     self = [super init];
     if (self) {
         // Create the data model.
-        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-        _pageData = [[dateFormatter monthSymbols] copy];
+        //NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+        //_pageData =  [[dateFormatter monthSymbols] copy];
+        _pageData = [[NSMutableArray alloc] init];
+        [_pageData addObject:@"Contents"];
+        [_pageData addObject:@"Favorites"];
+        [_pageData addObject:@"Search"];
+        [_pageData addObject:@"A"];
+        [_pageData addObject:@"B"];
+        [_pageData addObject:@"C"];
+        [_pageData addObject:@"D"];
+        [_pageData addObject:@"E"];
+        [_pageData addObject:@"F"];
+        [_pageData addObject:@"G"];
+        [_pageData addObject:@"H"];
+        [_pageData addObject:@"I"];
+        [_pageData addObject:@"J"];
+        [_pageData addObject:@"K"];
+        [_pageData addObject:@"L"];
+        [_pageData addObject:@"M"];
+        [_pageData addObject:@"N"];
+        [_pageData addObject:@"O"];
+        [_pageData addObject:@"P"];
+        [_pageData addObject:@"Q"];
+        [_pageData addObject:@"R"];
+        [_pageData addObject:@"S"];
+        [_pageData addObject:@"T"];
+        [_pageData addObject:@"U"];
+        [_pageData addObject:@"V"];
+        [_pageData addObject:@"W"];
+        [_pageData addObject:@"X"];
+        [_pageData addObject:@"Y"];
+        [_pageData addObject:@"Z"];
     }
     return self;
 }
